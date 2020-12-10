@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=PT+Serif:wght@200&family=Playfair+Display:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 20px;
+}
+.rectangle {
+    position: relative;
+    top: -50vh;
+    left: 10vh;
+    z-index: -1;
+}
+.nav-bar-rectangle-1 {
+    width: 25vh;
+    height: 15vh;
+    background-color: #cccccc;
+
+}
+.nav-bar-rectangle-2 {
+    width: 25vh;
+    height: 15vh;
+    background-color: #FF6600;
+    position: relative;
+    top: -8vh;
+    left: 8vh;
+}
+
+.nav-bar-rectangle-3 {
+    width: 20vh;
+    height: 50vh;
+    background-color: #ff3333;
+    position: relative;
+    top: -35vh;
+    z-index: -1;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;   
+    font-family: 'PT Serif', serif;
+}
+.nav-right {
+    margin-right: 0.5%;
+}
+.nav-right a {
+    float: right;
+    margin-right: 5%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.nav-left a {
+    float: left;
+    margin-left: 7%;
+}
+.container-1 {
+    width: 60vh;
+    height: 40vh;
+    margin: 25vh 0 0 25vh;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 5vh;
+    line-height: 10vh;
+
+}
+
+.paragraph span {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+.paragraph  p{
+    padding-top: 2vh;
+    font-size: 20px;
+    line-height: 3vh;
+    text-align: justify;
+}
+
+img {
+    width: 500px;
+    height: 700px;
+    position: relative;
+    top: -120vh;
+    left: 100vh;;
+}
