@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=PT+Serif:wght@200&family=Playfair+Display:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -12,6 +12,8 @@
     width: 100%;
     overflow: hidden;
     padding: 30px 20px;
+    background-color: white;
+    box-shadow: lightslategray;
 }
 .rectangle {
     position: relative;
@@ -54,41 +56,41 @@
 .nav-right a {
     float: right;
     margin-right: 5%;
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 15px;
+    font-weight: normal;
 }
 .nav-left a {
     float: left;
     margin-left: 7%;
 }
 .container-1 {
-    width: 60vh;
-    height: 40vh;
-    margin: 25vh 0 0 25vh;
+    padding: 0 50vh;
+    position: relative;
+    top: 10vh
 }
 
 .title {
     font-family: 'Playfair Display', serif;
     font-size: 5vh;
     line-height: 10vh;
-
+    background-color: #cccccc;
+    padding: 10px 10px;
 }
 
+.content {
+    background-color: #ff6600;
+    padding: 15px 10px;
+}
 .paragraph span {
-    font-family: 'Playfair Display', serif;
-    font-size: 50px;
+    font-size: 3.5vh;
 }
-.paragraph  p{
-    padding-top: 2vh;
+.paragraph , .point { 
+    padding-top: 3vh;
     font-size: 20px;
-    line-height: 3vh;
+    font-family: 'Bitter', serif;
     text-align: justify;
+    line-height: 3vh;
 }
-
-img {
-    width: 500px;
-    height: 700px;
-    position: relative;
-    top: -120vh;
-    left: 100vh;;
+.point ul{
+    padding-left: 15px;
 }
