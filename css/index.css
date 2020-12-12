@@ -15,7 +15,8 @@
     background-color: white;
     box-shadow: lightslategray;
 }
-.rectangle {
+
+/*.rectangle {
     position: relative;
     top: -50vh;
     left: 10vh;
@@ -44,7 +45,7 @@
     top: -35vh;
     z-index: -1;
 }
-
+*/
 .nav-bar a {
     text-decoration: none;
     color: black;   
@@ -63,34 +64,99 @@
     float: left;
     margin-left: 7%;
 }
+
 .container-1 {
-    padding: 0 50vh;
-    position: relative;
-    top: 10vh
+    background-color: #DCDCDC;
+    height: auto;
+    margin: 0 50vh;
+    padding: 15vh 10vh;
 }
 
 .title {
-    font-family: 'Playfair Display', serif;
-    font-size: 5vh;
-    line-height: 10vh;
-    background-color: #cccccc;
-    padding: 10px 10px;
+    font-family: 'Playfair Display', Serif;
+    font-size: 3.5em;
+    line-height: 1.5em;
+}
+.content span {
+    font-size: 2em;
+    font-family: Bitter, serif;
+}
+.content p{
+    padding: 4vh 0;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-family: Bitter, serif;
+}
+.point {
+    width: 67.5vh;
+    height: auto;
+    padding: 30px 50px;
+    background-color: #2F4F4F;
 }
 
-.content {
-    background-color: #ff6600;
-    padding: 15px 10px;
-}
-.paragraph span {
-    font-size: 3.5vh;
-}
-.paragraph , .point { 
-    padding-top: 3vh;
-    font-size: 20px;
-    font-family: 'Bitter', serif;
+.point ul li {
+    letter-spacing: 2px;
+    line-height: 1.5rem;
     text-align: justify;
-    line-height: 3vh;
+    font-family: Bitter, serif;
+    padding-bottom: 1rem;
+    color: white;
 }
-.point ul{
-    padding-left: 15px;
+
+@media all and (min-width: 901px) and (max-width: 1024px) {
+    .container-1 {
+        margin: 0 10vh;
+    }
+    .point {
+        width: 53vh;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .container-1 {
+        margin: 0 5vh;
+    }
+    .point {
+        width: 60vh;
+    }
+}
+
+@media all and (max-width: 768px) {
+    
+}
+@media all and (max-width: 600px) {
+    .point {
+        width: 47vh;
+    }
+    .point ul li {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 3rem;
+    }
+}
+@media all and (max-width: 480px) {
+
+}
+
+@media all and (max-width: 360px) {
+    .container-1 {
+        padding: 18vh 5vh;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+    .content p {
+        font-size: 15px;
+        line-height: 1.5rem;
+        letter-spacing: normal;
+    }
+    .point {
+        width: 37vh;
+        padding: 20px 23px;
+    }
+    .point ul li {
+        font-size: 15px;
+    }
 }
